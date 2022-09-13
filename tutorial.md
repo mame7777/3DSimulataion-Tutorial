@@ -2,6 +2,7 @@
 * [本ドキュメントについて](#)
 * [1.直線上の鉛直投げ上げ](#-1)
 * [2.二次元平面での投げ上げ](#-1)
+* [3.三次元での投げ上げ](#-1)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
@@ -75,4 +76,31 @@ matrix = np.array([data0, data1, data2])
 # 重力加速度[m/s^2]:9.8
 ```
 コードの実装例・答え(コード1行目に記載)は[こちら](https://github.com/mame7777/3DSimulataion-Tutorial/blob/main/codes/tutorial-2.py)
+※小数点以下1桁までとして正解を記載
+
+## <a name='-1'></a>3.三次元での投げ上げ
+いよいよ三次元空間での投げ上げをシミュレートしたいと思います．
+今回は以下のように空間を表現します．
+```math
+position = 
+\begin{pmatrix}
+鉛直 　\leftarrow 上が正 \\
+南北 　\leftarrow 北が正 \\
+東西 　\leftarrow 東が正 \\
+\end{pmatrix}
+```
+
+また，方位は北を0[deg]として，時計周りに360[deg]表記で表しています．
+
+以下の条件で実行して滞空時間・最高高度・距離位置を求めてみましょう．
+```python
+# 初期高度[m]:0
+# 演算終了高度[m]:0
+# 地面に対する仰角[deg]:70
+# 方位角[deg]:278.5
+# 初速度[m/s]:100.0
+# 時間刻み幅[s]:0.01
+# 重力加速度[m/s^2]:9.8
+```
+コードの実装例・答え(コード1行目に記載)は[こちら](https://github.com/mame7777/3DSimulataion-Tutorial/blob/main/codes/tutorial-3.py)
 ※小数点以下1桁までとして正解を記載
