@@ -18,8 +18,7 @@ gravity = np.array([0.0, 9.8], dtype=np.float64)  # 重力加速度
 
 # 計算時の変数
 time = 0.0      # 時間[s]
-position = np.array([height_start*cos(angle*np.pi/180),
-                    height_start*sin(angle*np.pi/180)], dtype=np.float64)
+position = np.array([0.0, height_start], dtype=np.float64)
 velocity = np.array([velocity_start*cos(angle*np.pi/180),
                     velocity_start*sin(angle*np.pi/180)], dtype=np.float64)
 
