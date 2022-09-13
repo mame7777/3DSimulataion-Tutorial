@@ -12,7 +12,7 @@ import numpy as np
 height_start = 0.0       # 初期高度[m]
 height_finish = 0.0      # 演算終了高度[m]
 angle_elevation = 70     # 地面に対する仰角[deg]
-angle_direction = 278.5  # 方位角[deg] 278.5
+angle_direction = 278.5  # 方位角[deg]
 velocity_start = 100.0   # 初速度[m/s]
 time_delta = 0.01        # 時間刻み幅[s]
 gravity = np.array([[-9.8], [0.0], [0.0]], dtype=np.float64)  # 重力加速度
