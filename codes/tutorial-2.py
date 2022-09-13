@@ -5,8 +5,7 @@
 # 位置や速度を[水平方向, 垂直方向]の行列で表現する
 
 # ライブラリのインポート
-from math import sin, cos
-from turtle import position  # mathというライブラリからsinとcosを使います，という意味．
+from math import sin, cos  # mathというライブラリからsinとcosを使います，という意味．
 import numpy as np         # numpyというライブラリをnpという名前で使います，という意味
 
 # パラメータ
