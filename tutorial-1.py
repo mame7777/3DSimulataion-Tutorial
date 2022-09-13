@@ -20,7 +20,7 @@ velocity = velocity_start
 # 計算部分
 while (height >= height_finish):
     velocity += ((-1) * gravity) * time_delta
-    height +=  velocity * time_delta
+    height += velocity * time_delta
     time += time_delta
 
 
