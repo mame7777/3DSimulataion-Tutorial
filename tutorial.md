@@ -108,4 +108,4 @@ position =
   
 コードの[実装例2](https://github.com/mame7777/3DSimulataion-Tutorial/blob/main/codes/tutorial-3_sub.py)  
 classを使った例です．  
-資料作成者もあまり使い慣れていないため，汚い実装となっています．　　
+資料作成者もあまり使い慣れていないため，汚い実装となっています．  
