@@ -76,7 +76,7 @@ matrix = np.array([data0, data1, data2])
 # 時間刻み幅[s]:0.01
 # 重力加速度[m/s^2]:9.8
 ```
-コードの実装例・答え(コード1行目に記載)は[こちら](https://github.com/mame7777/3DSimulataion-Tutorial/blob/main/codes/tutorial-2.py)  
+<!-- コードの実装例・答え(コード1行目に記載)は[こちら](https://github.com/mame7777/3DSimulataion-Tutorial/blob/main/codes/tutorial-2.py)   -->
 ※小数点以下1桁までとして正解を記載  
 
 ## <a name='-1'></a>3.三次元での投げ上げ
@@ -103,9 +103,9 @@ position =
 # 時間刻み幅[s]:0.01
 # 重力加速度[m/s^2]:9.8
 ```
-コードの実装例・答え(コード1行目に記載)は[こちら](https://github.com/mame7777/3DSimulataion-Tutorial/blob/main/codes/tutorial-3.py)  
+<!-- コードの実装例・答え(コード1行目に記載)は[こちら](https://github.com/mame7777/3DSimulataion-Tutorial/blob/main/codes/tutorial-3.py)  
 ※小数点以下1桁までとして正解を記載  
   
 コードの[実装例2](https://github.com/mame7777/3DSimulataion-Tutorial/blob/main/codes/tutorial-3_sub.py)  
 classを使った例です．  
-資料作成者もあまり使い慣れていないため，汚い実装となっています．  
+資料作成者もあまり使い慣れていないため，汚い実装となっています．  -->
